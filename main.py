@@ -6,5 +6,5 @@
 # nombrefunciónprincipaldelprograma()   -> Le llamaremos main(), para 
 # homologar con otros lenguajes de programación, como C#
 
-from HolaMundo import main
+from PreguntaValida import main
 main()

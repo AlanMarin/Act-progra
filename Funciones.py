@@ -1,37 +1,12 @@
-# Demostracion de los diferentes tipos de funciones
-# Argumentos utilizados
-#   No recibe argumentos
-#   Recibe argumentos
-#   Tiene argumentos opcionales
-# Retorno de valores
-#   No retorna valores
-#   Retorna valores
-# Se pueden dar combinaciones de ambos aspectos
 
-# Para declarar funciones se utiliza def
-
-# def nombredefuncion():
-#       codigo
-
-# El codigo de la funcion es obligatorio. Si no hay 
-# hay codigo por el momento, usar pass
-
-# Si una variable se declara fuera de procedimiento
-# se dice que es global 
 variableglobal="Soy global"
-# Dentro de las funciones, si se quiere usar la
-# variable global, debe anteponerse la palabra
-# reservada global
+
 
 def pendiente():
     pass
 
 def norecibeargumentos():
-    # Si se comenta la siguiente linea, usar la variable 
-    # equivale a declarar una version local de la 
-    # variable; si no se comenta, usar la variable 
-    # implica usar la global 
-    # global variableglobal
+
     variableglobal=4
     print("No recibe argumentos")
     print(variableglobal)
